@@ -89,7 +89,7 @@ int main()
                 }
 
                 setnonblocking(client);
-		memset(&ev, 0, sizeof ev);
+		        memset(&ev, 0, sizeof ev);
                 ev.events = EPOLLIN;
                 ev.data.fd = client;
                 epoll_ctl(epfd, EPOLL_CTL_ADD, client, &ev);
