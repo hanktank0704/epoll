@@ -1,3 +1,6 @@
 [submodule "loti-examples"]
 	path = loti-examples
 	url = https://github.com/shuveb/loti-examples.git
+[submodule "zerohttpd"]
+	path = zerohttpd
+	url = https://github.com/shuveb/zerohttpd.git
